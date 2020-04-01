@@ -1,0 +1,16 @@
+<!-- item in testamonials item = en instans. detta ligger i app.js -->
+<!-- ng-src ska du skriva annars blir det fel???-->
+<div class="container textaligncenter">
+  <div ng-repeat="item in products" class="productx border">
+    <img
+      ng-src="images/{{ item.image }}"
+      alt="can"
+      style="width: auto; height: 150px; margin: 20px"
+      ;
+    />
+    <div class="textaligncenter">
+      <h6 class="product-heading">{{ item.title }}</h6>
+      <p class="mminitext">{{ item.text }}</p>
+    </div>
+  </div>
+</div>

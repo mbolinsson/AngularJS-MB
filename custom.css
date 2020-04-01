@@ -1,0 +1,65 @@
+/* header */
+.logo {
+  width: 100px;
+}
+
+/* Overview */
+
+#overview-container {
+  text-align: center;
+  color: #343e3d;
+
+  font-family: "Merriweather Sans", sans-serif;
+  text-shadow: 0.5px 0.5px 4px grey;
+}
+
+.heading-overview {
+  font-size: 35px;
+  margin: 20px 0 0 0;
+}
+
+.overViewImg {
+  margin: 15px 0 25px 0;
+  width: 350px;
+}
+
+.ingredients {
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.onlyineurpoe {
+  font-size: 7px;
+}
+
+/* Products */
+
+.container {
+  padding-top: 12px;
+}
+
+.productx {
+  display: block;
+  width: 90%;
+  height: 320px;
+  min-width: 300px;
+  max-width: 450px;
+  margin: 20px 0 0 0;
+  padding: 0 40px 20px 40px;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #343e3d;
+  box-shadow: 1px 1px 5px 1px #bdbdbd;
+}
+
+.textaligncenter {
+  text-align: center;
+}
+
+.product-heading {
+  font-size: 16px;
+}
+
+.mminitext {
+  font-size: 14px;
+}
